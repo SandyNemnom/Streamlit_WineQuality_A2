@@ -14,13 +14,13 @@ import seaborn as sns
 # Load data
 @st.cache_data  # Cache the data to improve performance
 def load_data_red():
-    r_wine = pd.read_excel('winequality-red.xlsx')./
+    r_wine = pd.read_excel('winequality-red.xlsx./')
     return r_wine
 
 r_wine = load_data_red()
 
 def load_data_white():
-    w_wine = pd.read_excel('winequality-white.xlsx')./
+    w_wine = pd.read_excel('winequality-white.xlsx./')
     return w_wine
 
 w_wine = load_data_white()
